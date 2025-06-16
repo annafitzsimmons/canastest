@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETL Summer 2025: Enhancing Instruction with AI</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #333;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 shadow-lg rounded-b-xl">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">TETL Summer 2025</h1>
+            <p class="text-xl md:text-2xl">Enhancing Instruction with: Gemini, NotebookLM, Google Vids, Learn About</p>
+            <p class="text-md md:text-lg mt-2">Presented by Anna Fitzsimmons & Frank Murray, Belton ISD</p>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-8 flex-grow">
+        <!-- Introduction Section -->
+        <section class="bg-white p-8 mb-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Welcome!</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Thank you for attending our presentation on leveraging AI tools to enhance instruction. Below you'll find more details, links, and resources for Gemini, NotebookLM, Google Vids, and Learn About. We hope these tools empower you to personalize learning, automate tasks, and foster creativity in your classrooms.
+            </p>
+        </section>
+
+        <!-- Gemini Section -->
+        <section class="bg-white p-8 mb-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Gemini: Your Personalized AI Assistant</h2>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                Gemini can help personalize learning, automate administrative tasks, and generate creative content, freeing up valuable time to focus on student engagement and growth. Explore "Gems" – customized Gemini chatbots (AI assistants) – that you can define with specific personas, instructions, tone, and audience to achieve predictable, time-saving results.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">Ways to Use Gems:</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li><strong>Lesson Plan Generator:</strong> Quickly draft outlines, objectives, and activities.</li>
+                        <li><strong>Content Creator:</strong> Generate differentiated questions or reading passages.</li>
+                        <li><strong>Feedback Assistant:</strong> Structure assessment criteria with a "Rubric Creator Gem."</li>
+                        <li><strong>Idea Brainstormer:</strong> Discover new project ideas or unit themes.</li>
+                        <li><strong>Communication Drafts:</strong> Draft emails or announcements for parents.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">What are Gems?</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li>Customized Gemini chatbots (AI assistants).</li>
+                        <li>Define their persona, instructions, tone, and audience.</li>
+                        <li>Eliminate repetitive prompting for efficient, time-saving results.</li>
+                        <li>Create new Gems or customize premade ones.</li>
+                        <li>Ability to upload files to Gem instructions.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6 text-center">
+                <a href="https://gemini.google.com/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-xl font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Get to Gemini Here
+                </a>
+                <!-- TODO: Replace "#" with actual link to more Gemini resources/tutorials -->
+            </div>
+        </section>
+
+        <!-- NotebookLM Section -->
+        <section class="bg-white p-8 mb-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">NotebookLM: Your Interactive Learning Companion</h2>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                NotebookLM is an experimental AI learning companion that transforms how you grasp new topics. It provides interactive, visually rich explanations, quizzes, and related content, designed to deepen understanding and make learning engaging and personalized. Create interactive podcasts, mindmaps, study guides, and FAQs from your content.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">Key Features:</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li><strong>Personalized Study Aids:</strong> Generate custom summaries, guides, and questions from course materials.</li>
+                        <li><strong>Streamlined Content Creation:</strong> Quickly create lesson plans, outlines, and quizzes.</li>
+                        <li><strong>Enhanced Research Skills:</strong> Help students summarize articles and connect ideas.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">Benefits for Educators:</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li><strong>Interactive Learning:</strong> Create audio overviews or discussion prompts from content.</li>
+                        <li><strong>Collaborative Planning:</strong> Share and co-develop curriculum with colleagues.</li>
+                        <li><strong>Support Diverse Learners:</strong> Adapt materials for different learning styles and needs.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6 text-center">
+                <a href="#" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white text-xl font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Learn More about NotebookLM
+                </a>
+                <!-- TODO: Replace "#" with actual link to NotebookLM resources/website -->
+            </div>
+        </section>
+
+        <!-- Google Vids Section -->
+        <section class="bg-white p-8 mb-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Google Vids: AI-Powered Video Creation</h2>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                Google Vids is a new AI-powered video creation app within Google Workspace, making professional-looking video accessible to everyone. It streamlines the process with AI-generated drafts, script suggestions, stock media, and easy collaboration, perfect for internal communications, training, and presentations.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700">
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">Key Capabilities:</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li><strong>AI Video Creation:</strong> Generate videos quickly from text prompts or scripts.</li>
+                        <li><strong>Automated Voice Overs:</strong> Add AI narration in multiple languages.</li>
+                        <li><strong>Extensive Media Library:</strong> Access royalty-free stock footage, music, and sound effects.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-2">Seamless Integration & Sharing:</h3>
+                    <ul class="list-disc list-inside text-lg space-y-1">
+                        <li><strong>Easy Editing & Customization:</strong> Trim clips, add text, transitions, branding, and personalize.</li>
+                        <li><strong>Collaborative & Integrated:</strong> Work with teams; seamlessly use Google Workspace content.</li>
+                        <li><strong>Multi-Platform Publishing:</strong> Share directly to YouTube, social media, and websites.</li>
+                        <li><strong>Built into Google Workspace & Google Classroom Integration:</strong> Access within your familiar Google tools and share directly with students.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-6 text-center">
+                <a href="#" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 text-white text-xl font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Explore Google Vids
+                </a>
+                <!-- TODO: Replace "#" with actual link to Google Vids examples/website -->
+            </div>
+        </section>
+
+        <!-- Learn About Section -->
+        <section class="bg-white p-8 mb-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Learn About: Deepen Understanding with AI</h2>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                "Learn About" is an experimental AI learning companion that transforms how you grasp new topics. It provides interactive, visually rich explanations, quizzes, and related content, designed to deepen understanding and make learning engaging and personalized.
+            </p>
+            <h3 class="text-2xl font-medium mb-2 text-gray-700">How to Use:</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 space-y-1 mb-4">
+                <li><strong>Input a Topic:</strong> Simply tell it what you want to learn about, from broad subjects to specific concepts.</li>
+                <li><strong>Explore AI-Generated Content:</strong> Review the interactive explanations, summaries, and visual aids it creates.</li>
+                <li><strong>Deepen Understanding:</strong> Utilize the quizzes, related topics, and suggested next steps to reinforce your knowledge.</li>
+                <li><strong>Iterate & Refine:</strong> Provide feedback or ask follow-up questions to guide the AI for more personalized learning.</li>
+            </ul>
+            <div class="mt-6 text-center">
+                <a href="#" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-xl font-semibold py-3 px-8 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Try Learn About
+                </a>
+                <!-- TODO: Replace "#" with actual link to Learn About platform -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 rounded-t-xl shadow-inner mt-8">
+        <div class="container mx-auto text-center">
+            <h3 class="text-2xl font-semibold mb-3">Questions? Contact Us!</h3>
+            <p class="text-lg mb-2">
+                Anna Fitzsimmons: <a href="mailto:Anna.fitzsimmons@bisd.net" class="text-blue-400 hover:underline">Anna.fitzsimmons@bisd.net</a>
+            </p>
+            <p class="text-lg mb-4">
+                Frank Murray: <a href="mailto:Frank.murray@bisd.net" class="text-blue-400 hover:underline">Frank.murray@bisd.net</a>
+            </p>
+            <p class="text-sm text-gray-400">&copy; 2025 Belton ISD. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
